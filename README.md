@@ -22,30 +22,11 @@ The steps for this project  are divided into the following sections:
 
 #### Create the KaseiCoin Token Contract
 
-In this section, you will create a smart contract that defines KaseiCoin as an ERC-20 token. To do so, complete the following steps:
-
 ![Compiled](./Execution_Results/kas_coin_complied_image.png)
 
 
 #### Create the KaseiCoin Crowdsale Contract
-
-In this section, you will define the KaseiCoin crowdsale contract. To do so, complete the following steps:
-
-1. Import the provided `KaseiCoinCrowdsale.sol` starter code into the Remix IDE.
-
-2. Have this contract inherit the following OpenZeppelin contracts:
-
-* `Crowdsale`
-
-* `MintedCrowdsale`
-
-3. Within the `KaisenCoinCrowdsale` constructor, provide parameters for all of the features of your crowdsale, such as `rate`, `wallet` (where the funds that the token raises should be deposited), and `token`. Configure these parameters as you see fit for your KaseiCoin token.
-
-4. Compile the contract using compiler version 0.5.0.
-
-5. Check for any errors and debug as needed.
-
-6. Take a screenshot of the successful compilation of the contract, and add it to the Evaluation Evidence section of the `README.md` file for your Challenge repository.
+![Compiled](./Execution_Results/kas_coin_complied_image.png)
 
 #### Create the KaseiCoin Deployer Contract
 
