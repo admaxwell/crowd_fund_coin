@@ -1,1 +1,1 @@
-# crowd_fund_coin
+# CrowdFund Coin
