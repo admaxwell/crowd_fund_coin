@@ -24,7 +24,8 @@ The steps for this project  are divided into the following sections:
 
 In this section, you will create a smart contract that defines KaseiCoin as an ERC-20 token. To do so, complete the following steps:
 
-![Compiled](./Execution_Results/KaseiCoin_Compile.png)
+![Compiled](./Execution_Results/kas_coin_complied_image.png)
+
 
 #### Create the KaseiCoin Crowdsale Contract
 
