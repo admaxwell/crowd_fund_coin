@@ -25,49 +25,13 @@ The steps for this project  are divided into the following sections:
 ![Compiled](./Execution_Results/kas_coin_complied_image.png)
 
 
-#### Create the KaseiCoin Crowdsale Contract
+#### Create the KaseiCoin Crowdsale Contract AND Deployer Contract
+
+
 ![Compiled](./Execution_Results/kas_coin_crowdsale_deployer_compile_image.png)
 
 
 
-#### Create the KaseiCoin Deployer Contract
-
-
-In this section, you will create the KaseiCoin deployer contract. Start by uncommenting the `KaseiCoinCrowdsaleDeployer` contract in the provided `KaseiCoinCrowdsale.sol` starter code.
-
-Next, within the `KaseiCoinCrowdsaleDeployer` contract, add variables to store the addresses of the `KaseiCoin` and `KaseiCoinCrowdsale` contracts, which this contract will deploy. To do so, complete the following steps:
-
-1. Create an `address public` variable called `kasei_token_address`, which will store `KaseiCoin`’s address once that contract has been deployed.
-
-2. Create an `address public` variable called `kasei_crowdsale_address`, which will store `KaseiCoinCrowdsale`'s address once that contract has been deployed.
-
-3. Add the following parameters to the constructor for the `KaseiCoinCrowdsaleDeployer` contract: `name`, `symbol`, and `wallet`.
-
-4. Inside of the constructor body (between the curly braces), complete the following steps:
-
-    * Create a new instance of the `KaseiCoinToken` contract.
-
-    * Assign the KaseiCoin token contract’s address to the `kasei_token_address` variable. This will allow you to easily fetch the token's address later.
-
-    * Create a new instance of the `KaseiCoinCrowdsale` contract using the following parameters:
-
-       * `rate` (Set `rate` equal to 1 in order to maintain parity with ether.)
-
-       * `wallet` (Pass `wallet` in from the main constructor. This is the wallet that will get paid all of the ether raised by the crowdsale contract.)
-
-       * `token` (This should be the `token` variable where `KaseiCoin` is stored.)
-
-    * Assign the KaseiCoin crowdsale contract’s address to the `kasei_crowdsale_address` variable. This will allow you to easily fetch the crowdsale’s address later.
-
-    * Set the `KaseiCoinCrowdsale` contract as a minter.
-
-    * Have the `KaseiCoinCrowdsaleDeployer` renounce its minter role.
-
-5. Compile the contract using compiler version 0.5.0.
-
-6. Check for any errors and debug as needed.
-
-7. Take a screenshot of the successful compilation of the contract, and add it to the Evaluation Evidence section of the `README.md` file for your Challenge repository.
 
 #### Deploy the Crowdsale to a Local Blockchain
 
