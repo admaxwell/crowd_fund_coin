@@ -34,15 +34,8 @@ The steps for this project  are divided into the following sections:
 
 
 #### Deploy the Crowdsale to a Local Blockchain
+![Compiled](./Execution_Results/kas_coin_deployed_contracts_image.png)
 
-In this section, you will deploy the crowdsale to a local blockchain using Remix, MetaMask, and Ganache. To do so, complete the following steps. Record a short video or take screenshots that illustrate the three steps outlined below as evidence of your deployed crowdsale contract.
-
-
-1. Deploy the crowdsale to a local blockchain with Remix, MetaMask, and Ganache.
-
-2. Test the functionality of the crowdsale by using test accounts to buy new tokens and then checking the balances associated with those accounts.
-
-3. After purchasing tokens with one or more test accounts, view the total supply of minted tokens and the amount of wei that has been raised in the crowdsale contract.
 
 #### Optional: Extend the Crowdsale Contract by Using OpenZeppelin
 
