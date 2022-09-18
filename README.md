@@ -35,6 +35,9 @@ The steps for this project  are divided into the following sections:
 
 #### Deploy the Crowdsale to a Local Blockchain
 ![Compiled](./Execution_Results/kas_coin_deployed_contracts_image.png)
+![Compiled](./Execution_Results/kas_coin_deployer.png)
+
+
 
 
 #### Optional: Extend the Crowdsale Contract by Using OpenZeppelin
