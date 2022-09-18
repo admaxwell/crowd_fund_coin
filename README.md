@@ -26,7 +26,9 @@ The steps for this project  are divided into the following sections:
 
 
 #### Create the KaseiCoin Crowdsale Contract
-![Compiled](./Execution_Results/kas_coin_complied_image.png)
+![Compiled](./Execution_Results/kas_coin_crowdsale_deployer_compile_image.png)
+
+
 
 #### Create the KaseiCoin Deployer Contract
 
